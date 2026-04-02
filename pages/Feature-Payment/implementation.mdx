@@ -1,0 +1,10 @@
+# Payment Implementation
+
+## Where the Code Exists
+- `/services/payment.js` - Stripe integration logic
+- `/controllers/webhookController.js` - Endpoint logic to receive payment status updates
+
+## How to Implement
+1. Install stripe SDK
+2. Provide the API key inside `payment.js` initialization securely.
+3. Attach listener to the `cart.checkout` event.

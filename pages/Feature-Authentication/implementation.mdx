@@ -1,0 +1,8 @@
+# Authentication Implementation
+
+## Where the Code Exists
+- `/services/auth.js` - Contains token verification logic
+- `/middleware/authMiddleware.js` - Protects standard API routes
+
+## Codebase Map
+This feature employs stateless JWT authentication. We verify the token signature on the edge network for performance before it hits the backend.
